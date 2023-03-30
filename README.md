@@ -12,9 +12,9 @@ Aqui você encontra os códigos para as configurações iniciais de uma aplicaç
 
     - Todo o código do seu projeto deve ser zipado (.zip) e disponibilizado também no S3
 
-- Arquivo **main.py** (push_main.yaml)
+- Arquivo **main.py**
     - O arquivo **main.py** é quem vai receber as flags passadas no pipeline e passará para o código principal
-    - O aquivo main.py também deve ser disponibilizado no bucket do projeto
+    - O aquivo main.py também deve ser disponibilizado no bucket do projeto (push_main.yaml)
 
 - Pipeline
     - O código do pipeline está disponivel no arquivo **pipeline.py**
